@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.NorthwindDW2026"
+  DTS:DTSID="{C79844BE-7E3A-4008-9C2C-EDE16CAE55AF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=NorthwindDW2026;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-PROYECTO_ETL_JUNIO2026-{C79844BE-7E3A-4008-9C2C-EDE16CAE55AF}LocalHost.NorthwindDW2026;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
